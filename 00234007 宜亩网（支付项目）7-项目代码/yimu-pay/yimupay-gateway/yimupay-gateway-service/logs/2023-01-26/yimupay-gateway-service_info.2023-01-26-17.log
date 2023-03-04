@@ -1,0 +1,1423 @@
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:45,202 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$34ae9c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:45,738 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'jwt.yaml', group: 'COMMON_GROUP'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:45,744 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'gateway-service.yaml', group: 'YIMUPAY_GROUP'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:45,750 INFO [main][PropertySourceBootstrapConfiguration.java:98] - Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource@1961129028 {name='gateway-service.yaml', properties={zuul.ignoredServices=*, feign.compression.request.min-request-size=2048, zuul.sensitiveHeaders=*, feign.compression.response.enabled=true, feign.compression.request.mime-types[1]=application/xml, zuul.routes.uaa-service.stripPrefix=false, zuul.routes.operation-application.stripPrefix=false, zuul.retryable=true, ribbon.ReadTimeout=20000, zuul.routes.operation-application.path=/operation/**, zuul.routes.merchant-application.stripPrefix=false, ribbon.MaxAutoRetriesNextServer=1, hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=93000, ribbon.MaxAutoRetries=1, zuul.routes.uaa-service.path=/uaa/**, feign.compression.request.enabled=true, ribbon.ConnectTimeout=3000, zuul.routes.merchant-application.path=/merchant/**, zuul.add-host-header=true, hystrix.command.default.execution.timeout.enabled=true, ribbon.OkToRetryOnAllOperations=false, feign.hystrix.enabled=true, feign.compression.request.mime-types[2]=application/json, ribbon.nacos.enabled=true, feign.compression.request.mime-types[0]=text/xml}}, NacosPropertySource@163385254 {name='jwt.yaml', properties={siging-key=yimu123}}]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:45,770 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:46,184 WARN [main][EndpointId.java:135] - Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:46,186 WARN [main][EndpointId.java:135] - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:46,323 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:46,343 WARN [main][EndpointId.java:135] - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:46,496 INFO [main][GenericScope.java:294] - BeanFactory id=f40fe2a6-d37e-3783-98bf-7e7f4ae88785
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:46,634 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$34ae9c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:46,882 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 56010 (http)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:46,892 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:46,898 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:46,899 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:46,904 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/jdk/bin/../jre/bin/server;D:/jdk/bin/../jre/bin;D:/jdk/bin/../jre/lib/amd64;D:\VMware-workstation-full-16\bin\;D:\jdk\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\maven\apache-maven-3.6.3\bin;D:\Mysql5.6.31\mysql\bin;D:\VSCode\bin;D:\node-v10.14.2\;D:\winscp\;D:\Git\cmd;D:\projects\yimu-pay-web\shanjupay-web\node_modules\.bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\AppData\Roaming\npm;C:\Users\PC\AppData\Local\Yarn\bin;D:\ecplise\eclipse;;.]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:46,996 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:46,997 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 1219 ms
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:47,090 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:47,091 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:47,094 DEBUG [main][HystrixPlugins.java:386] - Created HystrixDynamicProperties. Using class : com.netflix.hystrix.strategy.properties.archaius.HystrixDynamicPropertiesArchaius
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:47,100 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@566f1852
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,342 WARN [main][JwtAccessTokenConverter.java:302] - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,382 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,382 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,396 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,397 DEBUG [main][ResourceBundleMessageInterpolator.java:89] - Loaded expression factory via original TCCL
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,399 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,399 DEBUG [main][ConfigurationImpl.java:148] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,400 DEBUG [main][ConfigurationImpl.java:180] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,400 DEBUG [main][ConfigurationImpl.java:194] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,401 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,401 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,402 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,402 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,402 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,406 DEBUG [main][ValidatorFactoryImpl.java:578] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,406 DEBUG [main][ValidatorFactoryImpl.java:579] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,406 DEBUG [main][ValidatorFactoryImpl.java:580] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,406 DEBUG [main][ValidatorFactoryImpl.java:581] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,406 DEBUG [main][ValidatorFactoryImpl.java:582] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,502 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,581 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,735 INFO [main][UserDetailsServiceAutoConfiguration.java:86] - 
+
+Using generated security password: d3843140-ce80-4d82-8d80-f5dd766390b5
+
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,848 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3bd08435, org.springframework.security.web.context.SecurityContextPersistenceFilter@6d31f106, org.springframework.security.web.header.HeaderWriterFilter@1f949ab9, org.springframework.security.web.authentication.logout.LogoutFilter@1e191150, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@8b41ad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6fe04f2a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@61853c7e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e52ed5d, org.springframework.security.web.session.SessionManagementFilter@6d7b001b, org.springframework.security.web.access.ExceptionTranslationFilter@71369e1a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f95d64d]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,853 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c212536, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e4894d, org.springframework.security.web.header.HeaderWriterFilter@147efd9, org.springframework.security.web.authentication.logout.LogoutFilter@2d4fb0d8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1de5cc88, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23e2c1ca, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b377a53, org.springframework.security.web.session.SessionManagementFilter@1e120628, org.springframework.security.web.access.ExceptionTranslationFilter@3e74fd84, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@45b7c97f]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:48,899 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:49,424 INFO [main][ZuulFilterInitializer.java:65] - Starting filter initializer
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:49,539 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:49,556 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 56010 (http) with context path ''
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:49,570 INFO [main][NacosServiceRegistry.java:62] - nacos registry, gateway-service 192.168.76.1:56010 register finished
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:40:49,576 INFO [main][StartupInfoLogger.java:59] - Started GatewayBootstrap in 5.218 seconds (JVM running for 6.139)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,736 INFO [http-nio-56010-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,736 INFO [http-nio-56010-exec-1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,742 INFO [http-nio-56010-exec-1][FrameworkServlet.java:546] - Completed initialization in 5 ms
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,822 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,823 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,823 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,824 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:232] - Content-Length header = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,826 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,933 DEBUG [http-nio-56010-exec-1][ZoneAffinityServerListFilter.java:83] - ZoneAffinity is set to false
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,934 DEBUG [http-nio-56010-exec-1][ZoneAffinityServerListFilter.java:93] - activeReqeustsPerServerThreshold: 0.6
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,934 DEBUG [http-nio-56010-exec-1][ZoneAffinityServerListFilter.java:95] - blackOutServerPercentageThreshold: 0.8
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,935 DEBUG [http-nio-56010-exec-1][ZoneAffinityServerListFilter.java:97] - availableServersThreshold: 2
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,949 INFO [http-nio-56010-exec-1][ChainedDynamicProperty.java:115] - Flipping property: uaa-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,964 DEBUG [http-nio-56010-exec-1][BaseLoadBalancer.java:338] - LoadBalancer [uaa-service]:  pingIntervalSeconds set to 30
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,964 DEBUG [http-nio-56010-exec-1][BaseLoadBalancer.java:356] - LoadBalancer [uaa-service]: maxTotalPingTime set to 2
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,965 INFO [http-nio-56010-exec-1][BaseLoadBalancer.java:197] - Client: uaa-service instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=uaa-service,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,971 INFO [http-nio-56010-exec-1][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,992 DEBUG [http-nio-56010-exec-1][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,992 DEBUG [http-nio-56010-exec-1][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,993 DEBUG [http-nio-56010-exec-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,994 DEBUG [http-nio-56010-exec-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:41,998 DEBUG [http-nio-56010-exec-1][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,000 INFO [http-nio-56010-exec-1][ChainedDynamicProperty.java:115] - Flipping property: uaa-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,001 DEBUG [http-nio-56010-exec-1][BaseLoadBalancer.java:147] - LoadBalancer [uaa-service_unknown]:  initialized
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,002 DEBUG [http-nio-56010-exec-1][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,002 DEBUG [http-nio-56010-exec-1][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,004 INFO [http-nio-56010-exec-1][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client uaa-service initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=uaa-service,current list of Servers=[192.168.76.1:56020],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.76.1:56020;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@111029ef
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,035 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.circuitBreaker.enabled to use NEXT property: hystrix.command.default.circuitBreaker.enabled = true
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,036 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.circuitBreaker.requestVolumeThreshold to use NEXT property: hystrix.command.default.circuitBreaker.requestVolumeThreshold = 20
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,036 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.circuitBreaker.sleepWindowInMilliseconds to use NEXT property: hystrix.command.default.circuitBreaker.sleepWindowInMilliseconds = 5000
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,037 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.circuitBreaker.errorThresholdPercentage to use NEXT property: hystrix.command.default.circuitBreaker.errorThresholdPercentage = 50
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,037 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.circuitBreaker.forceOpen to use NEXT property: hystrix.command.default.circuitBreaker.forceOpen = false
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,038 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.circuitBreaker.forceClosed to use NEXT property: hystrix.command.default.circuitBreaker.forceClosed = false
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,039 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:90] - Flipping property: hystrix.command.uaa-service.execution.isolation.strategy to use its current value: SEMAPHORE
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,039 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:90] - Flipping property: hystrix.command.uaa-service.execution.isolation.thread.timeoutInMilliseconds to use its current value: 93000
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,040 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.execution.timeout.enabled to use NEXT property: hystrix.command.default.execution.timeout.enabled = true
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,040 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.execution.isolation.thread.interruptOnTimeout to use NEXT property: hystrix.command.default.execution.isolation.thread.interruptOnTimeout = true
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,041 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.execution.isolation.thread.interruptOnFutureCancel to use NEXT property: hystrix.command.default.execution.isolation.thread.interruptOnFutureCancel = false
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,041 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:90] - Flipping property: hystrix.command.uaa-service.execution.isolation.semaphore.maxConcurrentRequests to use its current value: 100
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,042 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.fallback.isolation.semaphore.maxConcurrentRequests to use NEXT property: hystrix.command.default.fallback.isolation.semaphore.maxConcurrentRequests = 10
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,042 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.fallback.enabled to use NEXT property: hystrix.command.default.fallback.enabled = true
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,043 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.metrics.rollingStats.timeInMilliseconds to use NEXT property: hystrix.command.default.metrics.rollingStats.timeInMilliseconds = 10000
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,043 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.metrics.rollingStats.numBuckets to use NEXT property: hystrix.command.default.metrics.rollingStats.numBuckets = 10
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,043 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.metrics.rollingPercentile.enabled to use NEXT property: hystrix.command.default.metrics.rollingPercentile.enabled = true
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,044 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.metrics.rollingPercentile.timeInMilliseconds to use NEXT property: hystrix.command.default.metrics.rollingPercentile.timeInMilliseconds = 60000
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,044 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.metrics.rollingPercentile.numBuckets to use NEXT property: hystrix.command.default.metrics.rollingPercentile.numBuckets = 6
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,044 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.metrics.rollingPercentile.bucketSize to use NEXT property: hystrix.command.default.metrics.rollingPercentile.bucketSize = 100
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,045 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.metrics.healthSnapshot.intervalInMilliseconds to use NEXT property: hystrix.command.default.metrics.healthSnapshot.intervalInMilliseconds = 500
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,045 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.requestCache.enabled to use NEXT property: hystrix.command.default.requestCache.enabled = true
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,045 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.command.uaa-service.requestLog.enabled to use NEXT property: hystrix.command.default.requestLog.enabled = true
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,113 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.RibbonCommand.allowMaximumSizeToDivergeFromCoreSize to use NEXT property: hystrix.threadpool.default.allowMaximumSizeToDivergeFromCoreSize = false
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,113 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.RibbonCommand.coreSize to use NEXT property: hystrix.threadpool.default.coreSize = 10
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,113 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.RibbonCommand.maximumSize to use NEXT property: hystrix.threadpool.default.maximumSize = 10
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,114 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.RibbonCommand.keepAliveTimeMinutes to use NEXT property: hystrix.threadpool.default.keepAliveTimeMinutes = 1
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,114 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.RibbonCommand.maxQueueSize to use NEXT property: hystrix.threadpool.default.maxQueueSize = -1
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,114 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.RibbonCommand.queueSizeRejectionThreshold to use NEXT property: hystrix.threadpool.default.queueSizeRejectionThreshold = 5
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,115 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.RibbonCommand.metrics.rollingStats.timeInMilliseconds to use NEXT property: hystrix.threadpool.default.metrics.rollingStats.timeInMilliseconds = 10000
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,115 DEBUG [http-nio-56010-exec-1][HystrixPropertiesChainedProperty.java:93] - Flipping property: hystrix.threadpool.RibbonCommand.metrics.rollingStats.numBuckets to use NEXT property: hystrix.threadpool.default.metrics.rollingStats.numBuckets = 10
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,163 DEBUG [http-nio-56010-exec-1][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,978 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,979 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,979 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,979 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,980 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,980 INFO [PollingServerListUpdater-0][ChainedDynamicProperty.java:115] - Flipping property: uaa-service.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,981 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:147] - LoadBalancer [uaa-service_unknown]:  initialized
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,989 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:42,990 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:43,199 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:43,199 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:43,199 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:43,200 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:232] - Content-Length header = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:43,200 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:47:43,202 DEBUG [http-nio-56010-exec-2][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:48:12,993 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:48:12,994 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:48:12,995 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:48:12,995 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:48:12,996 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:48:12,996 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:48:12,997 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:48:43,004 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:48:43,004 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:48:43,004 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:48:43,005 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:48:43,005 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:48:43,005 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:48:43,005 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:49:13,012 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:49:13,012 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:49:13,013 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:49:13,013 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:49:13,013 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:49:13,013 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:49:13,013 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:49:43,025 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: []
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:49:43,025 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: []
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:49:43,025 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:49:43,026 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:49:43,026 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:13,036 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: []
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:13,036 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: []
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:13,037 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:13,037 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:13,037 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:31,694 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:31,694 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:31,694 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:31,694 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:232] - Content-Length header = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:31,694 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:31,696 DEBUG [http-nio-56010-exec-5][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:31,700 DEBUG [http-nio-56010-exec-5][AbstractCommand.java:1027] - Error executing HystrixCommand.run(). Proceeding to fallback logic ...
+com.netflix.client.ClientException: Load balancer does not have available server for client: uaa-service
+	at org.springframework.cloud.netflix.ribbon.support.AbstractLoadBalancingClient.validateServiceInstance(AbstractLoadBalancingClient.java:143)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.lambda$execute$0(RetryableRibbonLoadBalancingHttpClient.java:91)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:287)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:180)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.executeWithRetry(RetryableRibbonLoadBalancingHttpClient.java:153)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.execute(RetryableRibbonLoadBalancingHttpClient.java:125)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.execute(RetryableRibbonLoadBalancingHttpClient.java:58)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:184)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:51)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10423)
+	at rx.Observable.subscribe(Observable.java:10390)
+	at rx.internal.operators.BlockingOperatorToFuture.toFuture(BlockingOperatorToFuture.java:51)
+	at rx.observables.BlockingObservable.toFuture(BlockingObservable.java:410)
+	at com.netflix.hystrix.HystrixCommand.queue(HystrixCommand.java:378)
+	at com.netflix.hystrix.HystrixCommand.execute(HystrixCommand.java:344)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:161)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.run(RibbonRoutingFilter.java:114)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.route(FilterProcessor.java:118)
+	at com.netflix.zuul.ZuulRunner.route(ZuulRunner.java:96)
+	at com.netflix.zuul.http.ZuulServlet.route(ZuulServlet.java:116)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:81)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:44)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:176)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:31,709 DEBUG [http-nio-56010-exec-5][AbstractCommand.java:815] - No fallback for HystrixCommand. 
+java.lang.UnsupportedOperationException: No fallback available.
+	at com.netflix.hystrix.HystrixCommand.getFallback(HystrixCommand.java:293)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.getFallback(AbstractRibbonCommand.java:207)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.getFallback(AbstractRibbonCommand.java:51)
+	at com.netflix.hystrix.HystrixCommand$3.call(HystrixCommand.java:322)
+	at com.netflix.hystrix.HystrixCommand$3.call(HystrixCommand.java:318)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OperatorOnErrorResumeNextViaFunction$4.onError(OperatorOnErrorResumeNextViaFunction.java:142)
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87)
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87)
+	at com.netflix.hystrix.AbstractCommand$HystrixObservableTimeoutOperator$3.onError(AbstractCommand.java:1194)
+	at rx.observers.Subscribers$5.onError(Subscribers.java:230)
+	at com.netflix.hystrix.AbstractCommand$DeprecatedOnRunHookApplication$1.onError(AbstractCommand.java:1431)
+	at com.netflix.hystrix.AbstractCommand$ExecutionHookApplication$1.onError(AbstractCommand.java:1362)
+	at rx.observers.Subscribers$5.onError(Subscribers.java:230)
+	at rx.observers.Subscribers$5.onError(Subscribers.java:230)
+	at rx.internal.operators.OnSubscribeThrow.call(OnSubscribeThrow.java:44)
+	at rx.internal.operators.OnSubscribeThrow.call(OnSubscribeThrow.java:28)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10423)
+	at rx.Observable.subscribe(Observable.java:10390)
+	at rx.internal.operators.BlockingOperatorToFuture.toFuture(BlockingOperatorToFuture.java:51)
+	at rx.observables.BlockingObservable.toFuture(BlockingObservable.java:410)
+	at com.netflix.hystrix.HystrixCommand.queue(HystrixCommand.java:378)
+	at com.netflix.hystrix.HystrixCommand.execute(HystrixCommand.java:344)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:161)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.run(RibbonRoutingFilter.java:114)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.route(FilterProcessor.java:118)
+	at com.netflix.zuul.ZuulRunner.route(ZuulRunner.java:96)
+	at com.netflix.zuul.http.ZuulServlet.route(ZuulServlet.java:116)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:81)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:44)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:176)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:31,715 WARN [http-nio-56010-exec-5][SendErrorFilter.java:81] - Error during filtering
+com.netflix.zuul.exception.ZuulException: Forwarding error
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.handleException(RibbonRoutingFilter.java:191)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:166)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.run(RibbonRoutingFilter.java:114)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.route(FilterProcessor.java:118)
+	at com.netflix.zuul.ZuulRunner.route(ZuulRunner.java:96)
+	at com.netflix.zuul.http.ZuulServlet.route(ZuulServlet.java:116)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:81)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:44)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:176)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.netflix.client.ClientException: Load balancer does not have available server for client: uaa-service
+	at org.springframework.cloud.netflix.ribbon.support.AbstractLoadBalancingClient.validateServiceInstance(AbstractLoadBalancingClient.java:143)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.lambda$execute$0(RetryableRibbonLoadBalancingHttpClient.java:91)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:287)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:180)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.executeWithRetry(RetryableRibbonLoadBalancingHttpClient.java:153)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.execute(RetryableRibbonLoadBalancingHttpClient.java:125)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.execute(RetryableRibbonLoadBalancingHttpClient.java:58)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:184)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:51)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10423)
+	at rx.Observable.subscribe(Observable.java:10390)
+	at rx.internal.operators.BlockingOperatorToFuture.toFuture(BlockingOperatorToFuture.java:51)
+	at rx.observables.BlockingObservable.toFuture(BlockingObservable.java:410)
+	at com.netflix.hystrix.HystrixCommand.queue(HystrixCommand.java:378)
+	at com.netflix.hystrix.HystrixCommand.execute(HystrixCommand.java:344)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:161)
+	... 100 more
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:37,125 DEBUG [http-nio-56010-exec-6][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:37,125 DEBUG [http-nio-56010-exec-6][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:37,125 DEBUG [http-nio-56010-exec-6][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:37,126 DEBUG [http-nio-56010-exec-6][HttpServletRequestWrapper.java:232] - Content-Length header = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:37,126 DEBUG [http-nio-56010-exec-6][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:37,127 DEBUG [http-nio-56010-exec-6][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:37,128 DEBUG [http-nio-56010-exec-6][AbstractCommand.java:1027] - Error executing HystrixCommand.run(). Proceeding to fallback logic ...
+com.netflix.client.ClientException: Load balancer does not have available server for client: uaa-service
+	at org.springframework.cloud.netflix.ribbon.support.AbstractLoadBalancingClient.validateServiceInstance(AbstractLoadBalancingClient.java:143)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.lambda$execute$0(RetryableRibbonLoadBalancingHttpClient.java:91)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:287)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:180)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.executeWithRetry(RetryableRibbonLoadBalancingHttpClient.java:153)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.execute(RetryableRibbonLoadBalancingHttpClient.java:125)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.execute(RetryableRibbonLoadBalancingHttpClient.java:58)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:184)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:51)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10423)
+	at rx.Observable.subscribe(Observable.java:10390)
+	at rx.internal.operators.BlockingOperatorToFuture.toFuture(BlockingOperatorToFuture.java:51)
+	at rx.observables.BlockingObservable.toFuture(BlockingObservable.java:410)
+	at com.netflix.hystrix.HystrixCommand.queue(HystrixCommand.java:378)
+	at com.netflix.hystrix.HystrixCommand.execute(HystrixCommand.java:344)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:161)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.run(RibbonRoutingFilter.java:114)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.route(FilterProcessor.java:118)
+	at com.netflix.zuul.ZuulRunner.route(ZuulRunner.java:96)
+	at com.netflix.zuul.http.ZuulServlet.route(ZuulServlet.java:116)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:81)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:44)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:176)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:37,133 DEBUG [http-nio-56010-exec-6][AbstractCommand.java:815] - No fallback for HystrixCommand. 
+java.lang.UnsupportedOperationException: No fallback available.
+	at com.netflix.hystrix.HystrixCommand.getFallback(HystrixCommand.java:293)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.getFallback(AbstractRibbonCommand.java:207)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.getFallback(AbstractRibbonCommand.java:51)
+	at com.netflix.hystrix.HystrixCommand$3.call(HystrixCommand.java:322)
+	at com.netflix.hystrix.HystrixCommand$3.call(HystrixCommand.java:318)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OperatorOnErrorResumeNextViaFunction$4.onError(OperatorOnErrorResumeNextViaFunction.java:142)
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87)
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87)
+	at com.netflix.hystrix.AbstractCommand$HystrixObservableTimeoutOperator$3.onError(AbstractCommand.java:1194)
+	at rx.observers.Subscribers$5.onError(Subscribers.java:230)
+	at com.netflix.hystrix.AbstractCommand$DeprecatedOnRunHookApplication$1.onError(AbstractCommand.java:1431)
+	at com.netflix.hystrix.AbstractCommand$ExecutionHookApplication$1.onError(AbstractCommand.java:1362)
+	at rx.observers.Subscribers$5.onError(Subscribers.java:230)
+	at rx.observers.Subscribers$5.onError(Subscribers.java:230)
+	at rx.internal.operators.OnSubscribeThrow.call(OnSubscribeThrow.java:44)
+	at rx.internal.operators.OnSubscribeThrow.call(OnSubscribeThrow.java:28)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10423)
+	at rx.Observable.subscribe(Observable.java:10390)
+	at rx.internal.operators.BlockingOperatorToFuture.toFuture(BlockingOperatorToFuture.java:51)
+	at rx.observables.BlockingObservable.toFuture(BlockingObservable.java:410)
+	at com.netflix.hystrix.HystrixCommand.queue(HystrixCommand.java:378)
+	at com.netflix.hystrix.HystrixCommand.execute(HystrixCommand.java:344)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:161)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.run(RibbonRoutingFilter.java:114)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.route(FilterProcessor.java:118)
+	at com.netflix.zuul.ZuulRunner.route(ZuulRunner.java:96)
+	at com.netflix.zuul.http.ZuulServlet.route(ZuulServlet.java:116)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:81)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:44)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:176)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:37,135 WARN [http-nio-56010-exec-6][SendErrorFilter.java:81] - Error during filtering
+com.netflix.zuul.exception.ZuulException: Forwarding error
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.handleException(RibbonRoutingFilter.java:191)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:166)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.run(RibbonRoutingFilter.java:114)
+	at com.netflix.zuul.ZuulFilter.runFilter(ZuulFilter.java:117)
+	at com.netflix.zuul.FilterProcessor.processZuulFilter(FilterProcessor.java:193)
+	at com.netflix.zuul.FilterProcessor.runFilters(FilterProcessor.java:157)
+	at com.netflix.zuul.FilterProcessor.route(FilterProcessor.java:118)
+	at com.netflix.zuul.ZuulRunner.route(ZuulRunner.java:96)
+	at com.netflix.zuul.http.ZuulServlet.route(ZuulServlet.java:116)
+	at com.netflix.zuul.http.ZuulServlet.service(ZuulServlet.java:81)
+	at org.springframework.web.servlet.mvc.ServletWrappingController.handleRequestInternal(ServletWrappingController.java:165)
+	at org.springframework.cloud.netflix.zuul.web.ZuulController.handleRequest(ZuulController.java:44)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:52)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:176)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: com.netflix.client.ClientException: Load balancer does not have available server for client: uaa-service
+	at org.springframework.cloud.netflix.ribbon.support.AbstractLoadBalancingClient.validateServiceInstance(AbstractLoadBalancingClient.java:143)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.lambda$execute$0(RetryableRibbonLoadBalancingHttpClient.java:91)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:287)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:180)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.executeWithRetry(RetryableRibbonLoadBalancingHttpClient.java:153)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.execute(RetryableRibbonLoadBalancingHttpClient.java:125)
+	at org.springframework.cloud.netflix.ribbon.apache.RetryableRibbonLoadBalancingHttpClient.execute(RetryableRibbonLoadBalancingHttpClient.java:58)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:184)
+	at org.springframework.cloud.netflix.zuul.filters.route.support.AbstractRibbonCommand.run(AbstractRibbonCommand.java:51)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:48)
+	at rx.internal.operators.OnSubscribeMap.call(OnSubscribeMap.java:33)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.subscribe(Observable.java:10423)
+	at rx.Observable.subscribe(Observable.java:10390)
+	at rx.internal.operators.BlockingOperatorToFuture.toFuture(BlockingOperatorToFuture.java:51)
+	at rx.observables.BlockingObservable.toFuture(BlockingObservable.java:410)
+	at com.netflix.hystrix.HystrixCommand.queue(HystrixCommand.java:378)
+	at com.netflix.hystrix.HystrixCommand.execute(HystrixCommand.java:344)
+	at org.springframework.cloud.netflix.zuul.filters.route.RibbonRoutingFilter.forward(RibbonRoutingFilter.java:161)
+	... 100 more
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:43,041 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:43,042 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:43,042 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:43,043 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:43,043 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:43,044 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:43,044 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:48,597 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:48,598 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:48,598 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:48,598 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:232] - Content-Length header = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:48,599 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:48,600 DEBUG [http-nio-56010-exec-7][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:49,486 DEBUG [http-nio-56010-exec-8][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:49,487 DEBUG [http-nio-56010-exec-8][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:49,487 DEBUG [http-nio-56010-exec-8][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:49,487 DEBUG [http-nio-56010-exec-8][HttpServletRequestWrapper.java:232] - Content-Length header = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:49,488 DEBUG [http-nio-56010-exec-8][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:50:49,490 DEBUG [http-nio-56010-exec-8][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:11,343 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:11,343 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:11,343 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:11,343 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:232] - Content-Length header = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:11,344 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:11,346 DEBUG [http-nio-56010-exec-1][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:11,486 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:11,486 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:11,487 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:11,487 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:232] - Content-Length header = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:11,487 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:11,488 DEBUG [http-nio-56010-exec-2][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:13,052 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:13,052 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:13,052 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:13,053 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:13,053 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:13,053 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:13,053 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:43,068 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:43,069 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:43,069 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:43,070 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:43,070 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:43,071 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:51:43,071 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:52:13,087 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:52:13,087 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:52:13,087 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:52:13,087 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:52:13,087 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:52:13,087 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:52:13,087 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:52:43,100 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:52:43,100 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:52:43,100 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:52:43,100 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:52:43,100 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:52:43,101 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:52:43,101 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:53:13,108 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:53:13,110 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:53:13,110 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:53:13,111 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:53:13,111 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:53:13,111 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:53:13,112 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:53:43,125 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:53:43,125 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:53:43,125 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:53:43,126 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:53:43,126 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:53:43,126 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:53:43,127 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:54:13,138 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:54:13,138 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:54:13,138 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:54:13,138 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:54:13,138 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:54:13,139 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:54:13,139 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:54:43,150 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:54:43,151 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:54:43,151 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:54:43,151 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:54:43,152 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:54:43,152 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:54:43,152 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:55:13,163 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:55:13,163 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:55:13,163 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:55:13,164 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:55:13,164 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:55:13,164 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:55:13,164 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:55:43,179 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:55:43,180 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:55:43,180 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:55:43,180 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:55:43,181 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:55:43,181 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:55:43,182 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:56:13,198 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:56:13,198 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:56:13,198 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:56:13,199 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:56:13,199 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:56:13,199 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:56:13,199 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:56:43,207 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:56:43,207 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:56:43,207 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:56:43,207 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:56:43,207 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:56:43,208 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:56:43,208 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:57:13,222 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:57:13,222 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:57:13,222 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:57:13,222 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:57:13,223 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:57:13,223 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:57:13,223 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:57:43,232 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:57:43,232 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:57:43,232 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:57:43,232 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:57:43,233 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:57:43,233 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:57:43,233 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:58:13,244 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:58:13,245 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:58:13,245 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:58:13,245 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:58:13,245 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:58:13,246 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:58:13,246 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:58:43,247 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:58:43,247 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:58:43,247 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:58:43,247 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:58:43,247 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:58:43,247 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:58:43,247 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:59:13,253 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:59:13,253 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:59:13,254 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:59:13,254 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:59:13,254 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:59:13,255 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:59:13,255 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:59:43,258 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:59:43,259 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:59:43,259 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:59:43,259 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:59:43,260 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:59:43,260 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 17:59:43,260 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]

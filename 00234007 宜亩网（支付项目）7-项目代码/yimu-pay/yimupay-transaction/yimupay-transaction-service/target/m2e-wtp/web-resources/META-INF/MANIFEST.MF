@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: yimupay-transaction-service
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: PC
+Implementation-Vendor-Id: com.me.yimu.pay.transaction.service
+Build-Jdk: 1.8.0_301
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/yimu-pay/yimupay-transaction/yimupay-transaction-se
+ rvice
+Created-By: Maven Integration for Eclipse
+

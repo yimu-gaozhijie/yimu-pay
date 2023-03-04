@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: 商品服务工程API
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: PC
+Implementation-Vendor-Id: com.me.yimu.pay.parent.merchant.api
+Build-Jdk: 1.8.0_301
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/yimu-pay/yimu-pay-merchant-api
+Created-By: Maven Integration for Eclipse
+

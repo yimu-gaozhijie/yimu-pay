@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: 宜亩支付项目共通类
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: PC
+Implementation-Vendor-Id: com.me.yimu.pay.common
+Build-Jdk: 1.8.0_301
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/yimu-pay/yimu-pay-common
+Created-By: Maven Integration for Eclipse
+

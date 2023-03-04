@@ -1,0 +1,51 @@
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 19:12:18,594 INFO [RMI TCP Connection(2)-127.0.0.1][SpringApplicationAdminMXBeanRegistrar.java:163] - Application shutdown requested.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 19:12:18,596 INFO [RMI TCP Connection(2)-127.0.0.1][ZuulFilterInitializer.java:77] - Stopping filter initializer
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 19:12:18,600 INFO [RMI TCP Connection(2)-127.0.0.1][NacosServiceRegistry.java:74] - De-registering from Nacos Server now...
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 19:12:18,602 INFO [RMI TCP Connection(2)-127.0.0.1][NacosServiceRegistry.java:93] - De-registration finished.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 19:12:18,603 INFO [RMI TCP Connection(2)-127.0.0.1][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 19:12:18,616 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Pausing ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 19:12:18,836 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Stopping service [Tomcat]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 19:12:18,841 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.client.listener] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ com.alibaba.nacos.client.naming.core.EventDispatcher$Notifier.run(EventDispatcher.java:114)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 19:12:18,842 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.failover] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 19:12:18,843 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.push.receiver] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method)
+ java.net.DualStackPlainDatagramSocketImpl.receive0(DualStackPlainDatagramSocketImpl.java:124)
+ java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:149)
+ java.net.DatagramSocket.receive(DatagramSocket.java:812)
+ com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:73)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 19:12:18,844 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 19:12:18,845 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Stopping ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 19:12:18,850 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Destroying ProtocolHandler ["http-nio-56010"]

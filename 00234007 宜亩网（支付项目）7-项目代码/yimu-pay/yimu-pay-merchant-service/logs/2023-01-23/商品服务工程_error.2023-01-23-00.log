@@ -1,0 +1,36 @@
+[商品服务工程][${env:SERVER_PORT}] 2023-01-23 00:47:03,254 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field tenantService in com.me.yimu.pay.merchant.service.impl.MerchantServiceImpl required a bean of type 'com.me.yimu.pay.user.api.TenantService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.me.yimu.pay.user.api.TenantService' in your configuration.
+
+[商品服务工程][${env:SERVER_PORT}] 2023-01-23 00:50:53,512 ERROR [main][LoggingFailureAnalysisReporter.java:42] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field tenantService in com.me.yimu.pay.merchant.service.impl.MerchantServiceImpl required a bean of type 'com.me.yimu.pay.user.api.TenantService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.me.yimu.pay.user.api.TenantService' in your configuration.
+

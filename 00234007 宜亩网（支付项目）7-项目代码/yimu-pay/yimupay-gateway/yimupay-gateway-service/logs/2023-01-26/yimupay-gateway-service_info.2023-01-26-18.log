@@ -1,0 +1,871 @@
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:13,273 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:13,273 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:13,273 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:13,273 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:13,273 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:13,273 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:13,273 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:43,279 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:43,279 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:43,279 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:43,279 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:43,279 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:43,279 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:43,279 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:55,965 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:55,965 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:55,966 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:55,966 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:232] - Content-Length header = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:55,966 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:55,967 DEBUG [http-nio-56010-exec-5][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:56,093 DEBUG [http-nio-56010-exec-6][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:56,094 DEBUG [http-nio-56010-exec-6][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:56,094 DEBUG [http-nio-56010-exec-6][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:56,094 DEBUG [http-nio-56010-exec-6][HttpServletRequestWrapper.java:232] - Content-Length header = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:56,094 DEBUG [http-nio-56010-exec-6][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:00:56,096 DEBUG [http-nio-56010-exec-6][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:01:13,283 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:01:13,283 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:01:13,284 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:01:13,284 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:01:13,284 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:01:13,285 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:01:13,285 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:01:43,298 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:01:43,298 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:01:43,298 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:01:43,299 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:01:43,299 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:01:43,299 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:01:43,299 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:02:13,311 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:02:13,311 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:02:13,311 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:02:13,311 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:02:13,312 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:02:13,312 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:02:13,312 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:02:43,325 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:02:43,326 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:02:43,326 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:02:43,327 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:02:43,327 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:02:43,327 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:02:43,327 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:13,329 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:13,329 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:13,329 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:13,329 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:13,329 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:13,329 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:13,329 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:43,337 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:43,337 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:43,337 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:43,337 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:43,338 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:43,338 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:43,338 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:48,469 DEBUG [http-nio-56010-exec-10][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:48,470 DEBUG [http-nio-56010-exec-10][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:48,470 DEBUG [http-nio-56010-exec-10][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:48,470 DEBUG [http-nio-56010-exec-10][HttpServletRequestWrapper.java:232] - Content-Length header = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:48,471 DEBUG [http-nio-56010-exec-10][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:48,473 DEBUG [http-nio-56010-exec-10][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:48,600 DEBUG [http-nio-56010-exec-9][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:48,601 DEBUG [http-nio-56010-exec-9][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:48,601 DEBUG [http-nio-56010-exec-9][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:48,601 DEBUG [http-nio-56010-exec-9][HttpServletRequestWrapper.java:232] - Content-Length header = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:48,602 DEBUG [http-nio-56010-exec-9][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:03:48,603 DEBUG [http-nio-56010-exec-9][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:13,338 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:13,338 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:13,338 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:13,338 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:13,338 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:13,338 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:13,338 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:43,341 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:43,342 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:43,342 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:43,342 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:43,342 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:43,343 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:43,343 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:51,035 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:51,035 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:51,036 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:51,036 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:232] - Content-Length header = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:51,037 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:51,038 DEBUG [http-nio-56010-exec-3][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:51,161 DEBUG [http-nio-56010-exec-4][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:51,162 DEBUG [http-nio-56010-exec-4][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:51,162 DEBUG [http-nio-56010-exec-4][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:51,162 DEBUG [http-nio-56010-exec-4][HttpServletRequestWrapper.java:232] - Content-Length header = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:51,162 DEBUG [http-nio-56010-exec-4][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:04:51,164 DEBUG [http-nio-56010-exec-4][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:05:13,356 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:05:13,356 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:05:13,356 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:05:13,356 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:05:13,356 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:05:13,356 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:05:13,356 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:05:43,368 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:05:43,368 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:05:43,368 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:05:43,368 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:05:43,369 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:05:43,369 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:05:43,369 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:13,375 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:13,375 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:13,376 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:13,376 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:13,376 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:13,376 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:13,376 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:22,233 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:22,233 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:22,233 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:22,233 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:232] - Content-Length header = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:22,233 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:22,234 DEBUG [http-nio-56010-exec-7][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:22,484 DEBUG [http-nio-56010-exec-8][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:22,485 DEBUG [http-nio-56010-exec-8][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:22,485 DEBUG [http-nio-56010-exec-8][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:22,485 DEBUG [http-nio-56010-exec-8][HttpServletRequestWrapper.java:232] - Content-Length header = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:22,485 DEBUG [http-nio-56010-exec-8][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:22,488 DEBUG [http-nio-56010-exec-8][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:43,381 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:43,382 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:43,382 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:43,382 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:43,383 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:43,383 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:06:43,383 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:09,513 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:09,514 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:09,514 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:09,515 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:232] - Content-Length header = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:09,515 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:09,516 DEBUG [http-nio-56010-exec-1][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:09,772 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:09,773 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:09,773 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:09,773 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:232] - Content-Length header = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:09,773 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:09,774 DEBUG [http-nio-56010-exec-2][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:13,392 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:13,392 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:13,392 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:13,392 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:13,392 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:13,392 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:13,392 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:43,409 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:43,410 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:43,410 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:43,410 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:43,411 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:43,411 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:07:43,411 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:13,414 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:13,414 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:13,415 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:13,415 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:13,415 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:13,415 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:13,416 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:15,132 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:15,133 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:15,133 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:15,133 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:232] - Content-Length header = 178
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:15,133 DEBUG [http-nio-56010-exec-5][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 178
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:15,134 DEBUG [http-nio-56010-exec-5][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:20,776 DEBUG [http-nio-56010-exec-6][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:20,776 DEBUG [http-nio-56010-exec-6][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:20,776 DEBUG [http-nio-56010-exec-6][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:20,777 DEBUG [http-nio-56010-exec-6][HttpServletRequestWrapper.java:232] - Content-Length header = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:20,777 DEBUG [http-nio-56010-exec-6][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:20,777 DEBUG [http-nio-56010-exec-6][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:21,210 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:21,211 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:21,211 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:21,211 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:232] - Content-Length header = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:21,212 DEBUG [http-nio-56010-exec-7][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:21,213 DEBUG [http-nio-56010-exec-7][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:43,423 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:43,423 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:43,423 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:43,423 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:43,423 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:43,424 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:43,424 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:51,477 DEBUG [http-nio-56010-exec-9][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:51,477 DEBUG [http-nio-56010-exec-9][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:51,477 DEBUG [http-nio-56010-exec-9][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:51,477 DEBUG [http-nio-56010-exec-9][HttpServletRequestWrapper.java:232] - Content-Length header = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:51,477 DEBUG [http-nio-56010-exec-9][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:08:51,479 DEBUG [http-nio-56010-exec-9][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:13,434 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:13,434 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:13,434 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:13,434 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:13,434 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:13,435 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:13,435 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:15,145 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:15,146 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:15,147 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:15,148 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:232] - Content-Length header = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:15,148 DEBUG [http-nio-56010-exec-1][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:15,150 DEBUG [http-nio-56010-exec-1][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:21,782 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:21,782 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:21,782 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:21,782 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:232] - Content-Length header = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:21,783 DEBUG [http-nio-56010-exec-2][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 173
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:21,784 DEBUG [http-nio-56010-exec-2][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:22,202 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:229] - Path = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:22,202 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:230] - Transfer-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:22,202 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:231] - Content-Encoding = null
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:22,202 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:232] - Content-Length header = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:22,203 DEBUG [http-nio-56010-exec-3][HttpServletRequestWrapper.java:166] - Length of contentData byte array = 810
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:22,203 DEBUG [http-nio-56010-exec-3][ZoneAwareLoadBalancer.java:112] - Zone aware logic disabled or there is only one zone
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:43,440 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:43,440 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:43,441 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:43,441 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:43,441 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:43,441 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:09:43,441 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:10:13,449 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:10:13,449 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:10:13,450 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:10:13,450 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:10:13,450 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:10:13,450 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:10:13,450 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:10:43,466 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:10:43,466 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:10:43,466 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:10:43,466 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:10:43,466 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:10:43,466 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:10:43,466 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:11:13,480 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:11:13,480 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:11:13,480 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:11:13,480 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:11:13,480 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:11:13,480 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:11:13,481 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:11:43,486 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:11:43,486 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:11:43,487 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:11:43,487 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:11:43,487 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:11:43,487 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:11:43,487 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:12:13,499 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:12:13,499 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:12:13,499 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:12:13,499 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:12:13,499 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:12:13,499 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:12:13,499 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:12:43,510 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:12:43,510 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:12:43,510 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:12:43,511 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:12:43,511 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:12:43,511 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:12:43,511 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:13:13,521 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:13:13,522 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:13:13,522 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:13:13,522 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:13:13,523 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:13:13,523 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:13:13,523 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:13:43,536 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:13:43,537 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:13:43,537 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:13:43,537 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:13:43,538 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {unknown=[192.168.76.1:56020]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:13:43,538 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:13:43,538 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:507] - LoadBalancer [uaa-service_unknown]:  addServer [192.168.76.1:56020]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:13,547 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: []
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:13,548 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: []
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:13,548 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:13,548 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:13,549 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:43,555 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:241] - List of Servers for uaa-service obtained from Discovery client: []
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:43,555 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:246] - Filtered List of Servers for uaa-service obtained from Discovery client: []
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:43,555 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:43,555 DEBUG [PollingServerListUpdater-0][DynamicServerListLoadBalancer.java:179] - Setting server list for zones: {}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:43,556 DEBUG [PollingServerListUpdater-0][BaseLoadBalancer.java:491] - LoadBalancer [uaa-service_unknown]: clearing server list (SET op)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:44,912 INFO [RMI TCP Connection(2)-127.0.0.1][SpringApplicationAdminMXBeanRegistrar.java:163] - Application shutdown requested.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:44,914 INFO [RMI TCP Connection(2)-127.0.0.1][ZuulFilterInitializer.java:77] - Stopping filter initializer
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:44,921 INFO [RMI TCP Connection(2)-127.0.0.1][NacosServiceRegistry.java:74] - De-registering from Nacos Server now...
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:44,923 INFO [RMI TCP Connection(2)-127.0.0.1][NacosServiceRegistry.java:93] - De-registration finished.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:44,925 INFO [RMI TCP Connection(2)-127.0.0.1][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:44,942 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Pausing ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,176 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Stopping service [Tomcat]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,178 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,182 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.client.listener] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ com.alibaba.nacos.client.naming.core.EventDispatcher$Notifier.run(EventDispatcher.java:114)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,183 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.failover] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,183 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.push.receiver] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method)
+ java.net.DualStackPlainDatagramSocketImpl.receive0(DualStackPlainDatagramSocketImpl.java:124)
+ java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:149)
+ java.net.DatagramSocket.receive(DatagramSocket.java:812)
+ com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:73)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,184 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,185 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [expiringMap-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,185 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [PollingServerListUpdater-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,186 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,187 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [DataPublisher] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,187 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [RxComputationScheduler-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1081)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,188 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [PollingServerListUpdater-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,189 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,189 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,190 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,191 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,192 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,193 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,193 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.client.naming.updater] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,194 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Stopping ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:14:45,199 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Destroying ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:28,887 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$db78abd1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:29,481 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'jwt.yaml', group: 'COMMON_GROUP'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:29,488 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'gateway-service.yaml', group: 'YIMUPAY_GROUP'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:29,493 INFO [main][PropertySourceBootstrapConfiguration.java:98] - Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource@1681993012 {name='gateway-service.yaml', properties={zuul.ignoredServices=*, feign.compression.request.min-request-size=2048, zuul.sensitiveHeaders=*, feign.compression.response.enabled=true, feign.compression.request.mime-types[1]=application/xml, zuul.routes.uaa-service.stripPrefix=false, zuul.routes.operation-application.stripPrefix=false, zuul.retryable=true, ribbon.ReadTimeout=20000, zuul.routes.operation-application.path=/operation/**, zuul.routes.merchant-application.stripPrefix=false, ribbon.MaxAutoRetriesNextServer=1, hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=93000, ribbon.MaxAutoRetries=1, zuul.routes.uaa-service.path=/uaa/**, feign.compression.request.enabled=true, ribbon.ConnectTimeout=3000, zuul.routes.merchant-application.path=/merchant/**, zuul.add-host-header=true, hystrix.command.default.execution.timeout.enabled=true, ribbon.OkToRetryOnAllOperations=false, feign.hystrix.enabled=true, feign.compression.request.mime-types[2]=application/json, ribbon.nacos.enabled=true, feign.compression.request.mime-types[0]=text/xml}}, NacosPropertySource@1293389141 {name='jwt.yaml', properties={siging-key=yimu123}}]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:29,517 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:29,995 WARN [main][EndpointId.java:135] - Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:29,998 WARN [main][EndpointId.java:135] - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:30,161 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:30,171 WARN [main][EndpointId.java:135] - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:30,432 INFO [main][GenericScope.java:294] - BeanFactory id=f40fe2a6-d37e-3783-98bf-7e7f4ae88785
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:30,657 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$db78abd1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:30,925 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 56010 (http)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:30,938 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:30,945 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:30,945 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:30,952 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\jdk\jre\bin;D:/jdk/bin/../jre/bin/server;D:/jdk/bin/../jre/bin;D:/jdk/bin/../jre/lib/amd64;D:\VMware-workstation-full-16\bin\;D:\jdk\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\maven\apache-maven-3.6.3\bin;D:\Mysql5.6.31\mysql\bin;D:\VSCode\bin;D:\node-v10.14.2\;D:\winscp\;D:\Git\cmd;D:\projects\yimu-pay-web\shanjupay-web\node_modules\.bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\AppData\Roaming\npm;C:\Users\PC\AppData\Local\Yarn\bin;D:\ecplise\eclipse;;.]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:31,059 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:31,059 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 1531 ms
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:31,163 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:31,164 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:31,168 DEBUG [main][HystrixPlugins.java:386] - Created HystrixDynamicProperties. Using class : com.netflix.hystrix.strategy.properties.archaius.HystrixDynamicPropertiesArchaius
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:31,176 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@b94703b
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,497 WARN [main][JwtAccessTokenConverter.java:302] - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,546 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,546 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,563 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,564 DEBUG [main][ResourceBundleMessageInterpolator.java:89] - Loaded expression factory via original TCCL
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,567 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,568 DEBUG [main][ConfigurationImpl.java:148] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,569 DEBUG [main][ConfigurationImpl.java:180] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,570 DEBUG [main][ConfigurationImpl.java:194] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,571 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,571 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,572 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,572 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,573 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,579 DEBUG [main][ValidatorFactoryImpl.java:578] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,579 DEBUG [main][ValidatorFactoryImpl.java:579] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,579 DEBUG [main][ValidatorFactoryImpl.java:580] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,579 DEBUG [main][ValidatorFactoryImpl.java:581] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,580 DEBUG [main][ValidatorFactoryImpl.java:582] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,699 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,804 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:15:32,998 INFO [main][UserDetailsServiceAutoConfiguration.java:86] - 
+
+Using generated security password: 01c17589-3952-4a97-a7d7-c98c571b9ef3
+
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:16:27,641 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@696298ea, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e79c25, org.springframework.security.web.header.HeaderWriterFilter@5d22ed6c, org.springframework.security.web.authentication.logout.LogoutFilter@1f547af8, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@780546f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a47bc9c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f3cd727, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@de0c402, org.springframework.security.web.session.SessionManagementFilter@c1f0c7b, org.springframework.security.web.access.ExceptionTranslationFilter@4fe4503a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44d84313]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:16:27,647 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@467a2584, org.springframework.security.web.context.SecurityContextPersistenceFilter@1feb76b9, org.springframework.security.web.header.HeaderWriterFilter@3eadad14, org.springframework.security.web.authentication.logout.LogoutFilter@19f1be04, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61bf405d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32298473, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@121dce2, org.springframework.security.web.session.SessionManagementFilter@4acc27fd, org.springframework.security.web.access.ExceptionTranslationFilter@4f563f96, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b4d9bda]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:16:27,712 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:16:28,213 INFO [main][ZuulFilterInitializer.java:65] - Starting filter initializer
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:16:28,377 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:16:28,403 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 56010 (http) with context path ''
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:16:28,420 INFO [main][NacosServiceRegistry.java:62] - nacos registry, gateway-service 192.168.76.1:56010 register finished
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:16:28,427 INFO [main][StartupInfoLogger.java:59] - Started GatewayBootstrap in 60.536 seconds (JVM running for 61.851)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:21:12,440 INFO [http-nio-56010-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:21:12,441 INFO [http-nio-56010-exec-1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:21:12,449 INFO [http-nio-56010-exec-1][FrameworkServlet.java:546] - Completed initialization in 8 ms
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:24:07,964 INFO [RMI TCP Connection(2)-127.0.0.1][SpringApplicationAdminMXBeanRegistrar.java:163] - Application shutdown requested.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:24:07,967 INFO [RMI TCP Connection(2)-127.0.0.1][ZuulFilterInitializer.java:77] - Stopping filter initializer
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:24:07,971 INFO [RMI TCP Connection(2)-127.0.0.1][NacosServiceRegistry.java:74] - De-registering from Nacos Server now...
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:24:07,974 INFO [RMI TCP Connection(2)-127.0.0.1][NacosServiceRegistry.java:93] - De-registration finished.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:24:07,976 INFO [RMI TCP Connection(2)-127.0.0.1][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:24:07,993 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Pausing ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:24:08,231 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Stopping service [Tomcat]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:24:08,233 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:24:08,240 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.client.listener] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ com.alibaba.nacos.client.naming.core.EventDispatcher$Notifier.run(EventDispatcher.java:114)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:24:08,242 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.failover] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:24:08,243 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.push.receiver] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method)
+ java.net.DualStackPlainDatagramSocketImpl.receive0(DualStackPlainDatagramSocketImpl.java:124)
+ java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:149)
+ java.net.DatagramSocket.receive(DatagramSocket.java:812)
+ com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:73)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:24:08,244 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:24:08,247 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Stopping ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:24:08,253 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Destroying ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:28:59,791 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7c72fe0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:00,330 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'jwt.yaml', group: 'COMMON_GROUP'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:00,335 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'gateway-service.yaml', group: 'YIMUPAY_GROUP'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:00,341 INFO [main][PropertySourceBootstrapConfiguration.java:98] - Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource@1380044647 {name='gateway-service.yaml', properties={zuul.ignoredServices=*, feign.compression.request.min-request-size=2048, zuul.sensitiveHeaders=*, feign.compression.response.enabled=true, feign.compression.request.mime-types[1]=application/xml, zuul.routes.uaa-service.stripPrefix=false, zuul.routes.operation-application.stripPrefix=false, zuul.retryable=true, ribbon.ReadTimeout=20000, zuul.routes.operation-application.path=/operation/**, zuul.routes.merchant-application.stripPrefix=false, ribbon.MaxAutoRetriesNextServer=1, hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=93000, ribbon.MaxAutoRetries=1, zuul.routes.uaa-service.path=/uaa/**, feign.compression.request.enabled=true, ribbon.ConnectTimeout=3000, zuul.routes.merchant-application.path=/merchant/**, zuul.add-host-header=true, hystrix.command.default.execution.timeout.enabled=true, ribbon.OkToRetryOnAllOperations=false, feign.hystrix.enabled=true, feign.compression.request.mime-types[2]=application/json, ribbon.nacos.enabled=true, feign.compression.request.mime-types[0]=text/xml}}, NacosPropertySource@1902801188 {name='jwt.yaml', properties={siging-key=yimu123}}]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:00,362 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:00,751 WARN [main][EndpointId.java:135] - Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:00,753 WARN [main][EndpointId.java:135] - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:00,887 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:00,907 WARN [main][EndpointId.java:135] - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:01,064 INFO [main][GenericScope.java:294] - BeanFactory id=f40fe2a6-d37e-3783-98bf-7e7f4ae88785
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:01,197 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7c72fe0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:01,445 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 56010 (http)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:01,454 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:01,461 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:01,462 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:01,467 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/jdk/bin/../jre/bin/server;D:/jdk/bin/../jre/bin;D:/jdk/bin/../jre/lib/amd64;D:\VMware-workstation-full-16\bin\;D:\jdk\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\maven\apache-maven-3.6.3\bin;D:\Mysql5.6.31\mysql\bin;D:\VSCode\bin;D:\node-v10.14.2\;D:\winscp\;D:\Git\cmd;D:\projects\yimu-pay-web\shanjupay-web\node_modules\.bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\AppData\Roaming\npm;C:\Users\PC\AppData\Local\Yarn\bin;D:\ecplise\eclipse;;.]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:01,554 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:01,555 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 1185 ms
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:01,637 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:01,637 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:01,640 DEBUG [main][HystrixPlugins.java:386] - Created HystrixDynamicProperties. Using class : com.netflix.hystrix.strategy.properties.archaius.HystrixDynamicPropertiesArchaius
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:01,645 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@494c8f29
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,821 WARN [main][JwtAccessTokenConverter.java:302] - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,861 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,861 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,875 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,876 DEBUG [main][ResourceBundleMessageInterpolator.java:89] - Loaded expression factory via original TCCL
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,878 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,879 DEBUG [main][ConfigurationImpl.java:148] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,879 DEBUG [main][ConfigurationImpl.java:180] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,880 DEBUG [main][ConfigurationImpl.java:194] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,881 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,881 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,881 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,882 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,882 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,887 DEBUG [main][ValidatorFactoryImpl.java:578] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,887 DEBUG [main][ValidatorFactoryImpl.java:579] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,887 DEBUG [main][ValidatorFactoryImpl.java:580] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,887 DEBUG [main][ValidatorFactoryImpl.java:581] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,888 DEBUG [main][ValidatorFactoryImpl.java:582] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:02,982 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:03,059 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:03,208 INFO [main][UserDetailsServiceAutoConfiguration.java:86] - 
+
+Using generated security password: 5b169d2c-ac0f-4bc8-801c-1a8523e46532
+
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:03,304 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6704df84, org.springframework.security.web.context.SecurityContextPersistenceFilter@1883871b, org.springframework.security.web.header.HeaderWriterFilter@61911947, org.springframework.security.web.authentication.logout.LogoutFilter@27df5806, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@59262a90, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72224107, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4fc6e776, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1412682c, org.springframework.security.web.session.SessionManagementFilter@762a10b6, org.springframework.security.web.access.ExceptionTranslationFilter@1af677f8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5fb7ab9c]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:03,308 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f235e8e, org.springframework.security.web.context.SecurityContextPersistenceFilter@78065fcd, org.springframework.security.web.header.HeaderWriterFilter@13aed42b, org.springframework.security.web.authentication.logout.LogoutFilter@538b3c88, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3407aa4f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51ed2f68, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@597a7afa, org.springframework.security.web.session.SessionManagementFilter@698d6d30, org.springframework.security.web.access.ExceptionTranslationFilter@4cb00fa5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@72fb989b]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:03,354 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:03,874 INFO [main][ZuulFilterInitializer.java:65] - Starting filter initializer
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:03,988 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:04,003 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 56010 (http) with context path ''
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:04,014 INFO [main][NacosServiceRegistry.java:62] - nacos registry, gateway-service 192.168.76.1:56010 register finished
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:29:04,020 INFO [main][StartupInfoLogger.java:59] - Started GatewayBootstrap in 5.076 seconds (JVM running for 5.961)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:30:49,420 INFO [http-nio-56010-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:30:49,420 INFO [http-nio-56010-exec-1][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:30:49,426 INFO [http-nio-56010-exec-1][FrameworkServlet.java:546] - Completed initialization in 6 ms
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:41:32,814 INFO [RMI TCP Connection(2)-127.0.0.1][SpringApplicationAdminMXBeanRegistrar.java:163] - Application shutdown requested.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:41:32,816 INFO [RMI TCP Connection(2)-127.0.0.1][ZuulFilterInitializer.java:77] - Stopping filter initializer
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:41:32,820 INFO [RMI TCP Connection(2)-127.0.0.1][NacosServiceRegistry.java:74] - De-registering from Nacos Server now...
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:41:32,823 INFO [RMI TCP Connection(2)-127.0.0.1][NacosServiceRegistry.java:93] - De-registration finished.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:41:32,824 INFO [RMI TCP Connection(2)-127.0.0.1][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:41:32,835 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Pausing ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:41:33,056 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Stopping service [Tomcat]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:41:33,058 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:41:33,062 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.client.listener] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ com.alibaba.nacos.client.naming.core.EventDispatcher$Notifier.run(EventDispatcher.java:114)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:41:33,064 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.failover] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:41:33,065 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.push.receiver] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method)
+ java.net.DualStackPlainDatagramSocketImpl.receive0(DualStackPlainDatagramSocketImpl.java:124)
+ java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:149)
+ java.net.DatagramSocket.receive(DatagramSocket.java:812)
+ com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:73)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:41:33,066 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:41:33,068 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Stopping ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:41:33,073 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Destroying ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:06,660 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$accbf292] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:07,193 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'jwt.yaml', group: 'COMMON_GROUP'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:07,198 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'gateway-service.yaml', group: 'YIMUPAY_GROUP'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:07,204 INFO [main][PropertySourceBootstrapConfiguration.java:98] - Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource@2122357625 {name='gateway-service.yaml', properties={zuul.ignoredServices=*, feign.compression.request.min-request-size=2048, zuul.sensitiveHeaders=*, feign.compression.response.enabled=true, feign.compression.request.mime-types[1]=application/xml, zuul.routes.uaa-service.stripPrefix=false, zuul.routes.operation-application.stripPrefix=false, zuul.retryable=true, ribbon.ReadTimeout=20000, zuul.routes.operation-application.path=/operation/**, zuul.routes.merchant-application.stripPrefix=false, ribbon.MaxAutoRetriesNextServer=1, hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=93000, ribbon.MaxAutoRetries=1, zuul.routes.uaa-service.path=/uaa/**, feign.compression.request.enabled=true, ribbon.ConnectTimeout=3000, zuul.routes.merchant-application.path=/merchant/**, zuul.add-host-header=true, hystrix.command.default.execution.timeout.enabled=true, ribbon.OkToRetryOnAllOperations=false, feign.hystrix.enabled=true, feign.compression.request.mime-types[2]=application/json, ribbon.nacos.enabled=true, feign.compression.request.mime-types[0]=text/xml}}, NacosPropertySource@1556162268 {name='jwt.yaml', properties={siging-key=yimu123}}]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:07,228 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:07,618 WARN [main][EndpointId.java:135] - Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:07,620 WARN [main][EndpointId.java:135] - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:07,760 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:07,781 WARN [main][EndpointId.java:135] - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:07,939 INFO [main][GenericScope.java:294] - BeanFactory id=f40fe2a6-d37e-3783-98bf-7e7f4ae88785
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:08,070 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$accbf292] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:08,317 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 56010 (http)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:08,327 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:08,334 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:08,334 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:08,339 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/jdk/bin/../jre/bin/server;D:/jdk/bin/../jre/bin;D:/jdk/bin/../jre/lib/amd64;D:\VMware-workstation-full-16\bin\;D:\jdk\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\maven\apache-maven-3.6.3\bin;D:\Mysql5.6.31\mysql\bin;D:\VSCode\bin;D:\node-v10.14.2\;D:\winscp\;D:\Git\cmd;D:\projects\yimu-pay-web\shanjupay-web\node_modules\.bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\AppData\Roaming\npm;C:\Users\PC\AppData\Local\Yarn\bin;D:\ecplise\eclipse;;.]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:08,433 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:08,433 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 1196 ms
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:08,511 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:08,512 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:08,515 DEBUG [main][HystrixPlugins.java:386] - Created HystrixDynamicProperties. Using class : com.netflix.hystrix.strategy.properties.archaius.HystrixDynamicPropertiesArchaius
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:08,520 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@66c9b52f
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,662 WARN [main][JwtAccessTokenConverter.java:302] - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,702 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,702 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,716 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,717 DEBUG [main][ResourceBundleMessageInterpolator.java:89] - Loaded expression factory via original TCCL
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,719 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,719 DEBUG [main][ConfigurationImpl.java:148] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,720 DEBUG [main][ConfigurationImpl.java:180] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,720 DEBUG [main][ConfigurationImpl.java:194] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,721 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,721 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,721 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,722 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,722 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,725 DEBUG [main][ValidatorFactoryImpl.java:578] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,725 DEBUG [main][ValidatorFactoryImpl.java:579] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,725 DEBUG [main][ValidatorFactoryImpl.java:580] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,726 DEBUG [main][ValidatorFactoryImpl.java:581] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,726 DEBUG [main][ValidatorFactoryImpl.java:582] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,818 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:09,902 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:10,056 INFO [main][UserDetailsServiceAutoConfiguration.java:86] - 
+
+Using generated security password: 3ec35d1a-3b6d-4296-80fd-ca7d61697235
+
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:10,147 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@15994b0b, org.springframework.security.web.context.SecurityContextPersistenceFilter@240a2619, org.springframework.security.web.header.HeaderWriterFilter@1b409a79, org.springframework.security.web.authentication.logout.LogoutFilter@f95d64d, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@d9f5fce, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52bba91a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7604198a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12cd129c, org.springframework.security.web.session.SessionManagementFilter@3e0a9b1d, org.springframework.security.web.access.ExceptionTranslationFilter@34cd65ac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2eebce87]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:10,152 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@524f5ea5, org.springframework.security.web.context.SecurityContextPersistenceFilter@19b9f903, org.springframework.security.web.header.HeaderWriterFilter@51ed2f68, org.springframework.security.web.authentication.logout.LogoutFilter@22ae905f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@10e56da9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28cb86b2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@586843bc, org.springframework.security.web.session.SessionManagementFilter@538b3c88, org.springframework.security.web.access.ExceptionTranslationFilter@3407aa4f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7cdb7fc]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:10,195 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:10,716 INFO [main][ZuulFilterInitializer.java:65] - Starting filter initializer
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:10,830 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:10,847 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 56010 (http) with context path ''
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:10,856 INFO [main][NacosServiceRegistry.java:62] - nacos registry, gateway-service 192.168.76.1:56010 register finished
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:49:10,861 INFO [main][StartupInfoLogger.java:59] - Started GatewayBootstrap in 5.039 seconds (JVM running for 5.935)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:50:50,084 INFO [RMI TCP Connection(2)-127.0.0.1][SpringApplicationAdminMXBeanRegistrar.java:163] - Application shutdown requested.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:50:50,087 INFO [RMI TCP Connection(2)-127.0.0.1][ZuulFilterInitializer.java:77] - Stopping filter initializer
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:50:50,091 INFO [RMI TCP Connection(2)-127.0.0.1][NacosServiceRegistry.java:74] - De-registering from Nacos Server now...
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:50:50,095 INFO [RMI TCP Connection(2)-127.0.0.1][NacosServiceRegistry.java:93] - De-registration finished.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:50:50,097 INFO [RMI TCP Connection(2)-127.0.0.1][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:50:50,109 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Pausing ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:50:50,341 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Stopping service [Tomcat]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:50:50,347 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.client.listener] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ com.alibaba.nacos.client.naming.core.EventDispatcher$Notifier.run(EventDispatcher.java:114)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:50:50,348 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.failover] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:50:50,350 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.push.receiver] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.DualStackPlainDatagramSocketImpl.socketReceiveOrPeekData(Native Method)
+ java.net.DualStackPlainDatagramSocketImpl.receive0(DualStackPlainDatagramSocketImpl.java:124)
+ java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:149)
+ java.net.DatagramSocket.receive(DatagramSocket.java:812)
+ com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:73)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:50:50,350 WARN [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - The web application [ROOT] appears to have started a thread named [RxIoScheduler-1 (Evictor)] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:50:50,352 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Stopping ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:50:50,358 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Destroying ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:28,284 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7c72fe0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:28,829 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'jwt.yaml', group: 'COMMON_GROUP'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:28,835 INFO [main][NacosPropertySourceBuilder.java:87] - Loading nacos data, dataId: 'gateway-service.yaml', group: 'YIMUPAY_GROUP'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:28,840 INFO [main][PropertySourceBootstrapConfiguration.java:98] - Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource@1998137093 {name='gateway-service.yaml', properties={zuul.ignoredServices=*, feign.compression.request.min-request-size=2048, zuul.sensitiveHeaders=*, feign.compression.response.enabled=true, feign.compression.request.mime-types[1]=application/xml, zuul.routes.uaa-service.stripPrefix=false, zuul.routes.operation-application.stripPrefix=false, zuul.retryable=true, ribbon.ReadTimeout=20000, zuul.routes.operation-application.path=/operation/**, zuul.routes.merchant-application.stripPrefix=false, ribbon.MaxAutoRetriesNextServer=1, hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=93000, ribbon.MaxAutoRetries=1, zuul.routes.uaa-service.path=/uaa/**, feign.compression.request.enabled=true, ribbon.ConnectTimeout=3000, zuul.routes.merchant-application.path=/merchant/**, zuul.add-host-header=true, hystrix.command.default.execution.timeout.enabled=true, ribbon.OkToRetryOnAllOperations=false, feign.hystrix.enabled=true, feign.compression.request.mime-types[2]=application/json, ribbon.nacos.enabled=true, feign.compression.request.mime-types[0]=text/xml}}, NacosPropertySource@577127077 {name='jwt.yaml', properties={siging-key=yimu123}}]}
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:28,862 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:29,251 WARN [main][EndpointId.java:135] - Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:29,253 WARN [main][EndpointId.java:135] - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:29,392 WARN [main][EndpointId.java:135] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:29,412 WARN [main][EndpointId.java:135] - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:29,572 INFO [main][GenericScope.java:294] - BeanFactory id=f40fe2a6-d37e-3783-98bf-7e7f4ae88785
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:29,703 INFO [main][PostProcessorRegistrationDelegate.java:330] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$7c72fe0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:29,944 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 56010 (http)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:29,955 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:29,962 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:29,962 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:29,967 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/jdk/bin/../jre/bin/server;D:/jdk/bin/../jre/bin;D:/jdk/bin/../jre/lib/amd64;D:\VMware-workstation-full-16\bin\;D:\jdk\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\maven\apache-maven-3.6.3\bin;D:\Mysql5.6.31\mysql\bin;D:\VSCode\bin;D:\node-v10.14.2\;D:\winscp\;D:\Git\cmd;D:\projects\yimu-pay-web\shanjupay-web\node_modules\.bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\PC\AppData\Local\Microsoft\WindowsApps;C:\Users\PC\AppData\Roaming\npm;C:\Users\PC\AppData\Local\Yarn\bin;D:\ecplise\eclipse;;.]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:30,054 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:30,055 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 1184 ms
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:30,136 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:30,136 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:30,140 DEBUG [main][HystrixPlugins.java:386] - Created HystrixDynamicProperties. Using class : com.netflix.hystrix.strategy.properties.archaius.HystrixDynamicPropertiesArchaius
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:30,145 INFO [main][DynamicPropertyFactory.java:281] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1c57f6b2
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,290 WARN [main][JwtAccessTokenConverter.java:302] - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,330 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,330 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,344 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,345 DEBUG [main][ResourceBundleMessageInterpolator.java:89] - Loaded expression factory via original TCCL
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,347 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,348 DEBUG [main][ConfigurationImpl.java:148] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,348 DEBUG [main][ConfigurationImpl.java:180] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,349 DEBUG [main][ConfigurationImpl.java:194] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,350 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,350 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,350 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,351 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,351 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,354 DEBUG [main][ValidatorFactoryImpl.java:578] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,355 DEBUG [main][ValidatorFactoryImpl.java:579] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,355 DEBUG [main][ValidatorFactoryImpl.java:580] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,355 DEBUG [main][ValidatorFactoryImpl.java:581] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,356 DEBUG [main][ValidatorFactoryImpl.java:582] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,450 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,528 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,678 INFO [main][UserDetailsServiceAutoConfiguration.java:86] - 
+
+Using generated security password: 18db223e-6f98-4c0e-a16b-9270bfd80293
+
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,767 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6704df84, org.springframework.security.web.context.SecurityContextPersistenceFilter@1883871b, org.springframework.security.web.header.HeaderWriterFilter@61911947, org.springframework.security.web.authentication.logout.LogoutFilter@27df5806, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@59262a90, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72224107, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4fc6e776, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1412682c, org.springframework.security.web.session.SessionManagementFilter@762a10b6, org.springframework.security.web.access.ExceptionTranslationFilter@1af677f8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5fb7ab9c]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,772 INFO [main][DefaultSecurityFilterChain.java:43] - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f235e8e, org.springframework.security.web.context.SecurityContextPersistenceFilter@78065fcd, org.springframework.security.web.header.HeaderWriterFilter@13aed42b, org.springframework.security.web.authentication.logout.LogoutFilter@538b3c88, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3407aa4f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51ed2f68, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@597a7afa, org.springframework.security.web.session.SessionManagementFilter@698d6d30, org.springframework.security.web.access.ExceptionTranslationFilter@4cb00fa5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@72fb989b]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:31,815 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:32,339 INFO [main][ZuulFilterInitializer.java:65] - Starting filter initializer
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:32,449 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-56010"]
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:32,465 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 56010 (http) with context path ''
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:32,475 INFO [main][NacosServiceRegistry.java:62] - nacos registry, gateway-service 192.168.76.1:56010 register finished
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-26 18:52:32,480 INFO [main][StartupInfoLogger.java:59] - Started GatewayBootstrap in 5.039 seconds (JVM running for 5.943)

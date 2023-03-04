@@ -1,0 +1,360 @@
+[商品服务工程][${env:SERVER_PORT}] 2023-01-24 20:07:55,316 ERROR [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:51] -  [DUBBO] Fail to connect to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.76.1:0 -> /192.168.76.1:30880]], dubbo version: 2.7.3, current host: 192.168.76.1
+org.apache.dubbo.remoting.RemotingException: client(url: dubbo://192.168.76.1:30880/com.me.yimu.pay.user.api.TenantService?anyhost=true&application=merchant-service&bean.name=ServiceBean:com.me.yimu.pay.user.api.TenantService&category=providers&check=false&codec=dubbo&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=com.me.yimu.pay.user.api.TenantService&lazy=false&methods=modifyBundle,getTenantByAccount,getAccountByUsername,createBundle,initBundle,isExistAccountByUsername,login,getBundle,unbindTenant,removeTenant,queryBundleByTenantType,queryTenants,getAccountByMobile,getApplicationDTOByClientId,queryAccount,changeBundle,isExistAccountInTenantByUsername,createAccountInTenant,authentication,queryAccountRole,queryAccountInTenant,isExistAccountByMobile,sendMessage,createTenantRelateAccount,queryAllBundle,createAccount,getTenant,queryAdministratorByPage,isExistAccountInTenantByMobile,createTenantAndAccount,accountPassword,bindTenant&path=com.me.yimu.pay.user.api.TenantService&pid=28520&protocol=dubbo&qos.enable=false&qos.port=22240&register=true&register.ip=192.168.76.1&release=2.7.3&remote.application=user-service&retries=-1&side=consumer&sticky=false&timeout=90000&timestamp=1674561157193) failed to connect to server /192.168.76.1:30880, error message is:Connection refused: no further information: /192.168.76.1:30880
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:166)
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:190)
+	at org.apache.dubbo.remoting.transport.AbstractClient.reconnect(AbstractClient.java:246)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient.reconnect(HeaderExchangeClient.java:155)
+	at org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask.doTask(ReconnectTimerTask.java:49)
+	at org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask.run(AbstractTimerTask.java:87)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:648)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:727)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$Worker.run(HashedWheelTimer.java:449)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.76.1:30880
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:665)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:612)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:529)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+[商品服务工程][${env:SERVER_PORT}] 2023-01-24 20:08:58,334 ERROR [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:51] -  [DUBBO] Fail to connect to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.76.1:0 -> /192.168.76.1:30880]], dubbo version: 2.7.3, current host: 192.168.76.1
+org.apache.dubbo.remoting.RemotingException: client(url: dubbo://192.168.76.1:30880/com.me.yimu.pay.user.api.TenantService?anyhost=true&application=merchant-service&bean.name=ServiceBean:com.me.yimu.pay.user.api.TenantService&category=providers&check=false&codec=dubbo&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=com.me.yimu.pay.user.api.TenantService&lazy=false&methods=modifyBundle,getTenantByAccount,getAccountByUsername,createBundle,initBundle,isExistAccountByUsername,login,getBundle,unbindTenant,removeTenant,queryBundleByTenantType,queryTenants,getAccountByMobile,getApplicationDTOByClientId,queryAccount,changeBundle,isExistAccountInTenantByUsername,createAccountInTenant,authentication,queryAccountRole,queryAccountInTenant,isExistAccountByMobile,sendMessage,createTenantRelateAccount,queryAllBundle,createAccount,getTenant,queryAdministratorByPage,isExistAccountInTenantByMobile,createTenantAndAccount,accountPassword,bindTenant&path=com.me.yimu.pay.user.api.TenantService&pid=28520&protocol=dubbo&qos.enable=false&qos.port=22240&register=true&register.ip=192.168.76.1&release=2.7.3&remote.application=user-service&retries=-1&side=consumer&sticky=false&timeout=90000&timestamp=1674561157193) failed to connect to server /192.168.76.1:30880, error message is:Connection refused: no further information: /192.168.76.1:30880
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:166)
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:190)
+	at org.apache.dubbo.remoting.transport.AbstractClient.reconnect(AbstractClient.java:246)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient.reconnect(HeaderExchangeClient.java:155)
+	at org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask.doTask(ReconnectTimerTask.java:49)
+	at org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask.run(AbstractTimerTask.java:87)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:648)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:727)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$Worker.run(HashedWheelTimer.java:449)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.76.1:30880
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:665)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:612)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:529)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+[商品服务工程][${env:SERVER_PORT}] 2023-01-24 20:21:53,318 ERROR [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:51] -  [DUBBO] Fail to connect to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.76.1:0 -> /192.168.76.1:20880]], dubbo version: 2.7.3, current host: 192.168.76.1
+org.apache.dubbo.remoting.RemotingException: client(url: dubbo://192.168.76.1:20880/com.me.yimu.pay.user.api.TenantService?anyhost=true&application=merchant-service&bean.name=ServiceBean:com.me.yimu.pay.user.api.TenantService&category=providers&check=false&codec=dubbo&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=com.me.yimu.pay.user.api.TenantService&lazy=false&methods=modifyBundle,getTenantByAccount,getAccountByUsername,createBundle,initBundle,isExistAccountByUsername,login,unbindTenant,getBundle,removeTenant,queryBundleByTenantType,queryTenants,getAccountByMobile,getApplicationDTOByClientId,queryAccount,changeBundle,isExistAccountInTenantByUsername,createAccountInTenant,authentication,queryAccountRole,queryAccountInTenant,isExistAccountByMobile,sendMessage,createTenantRelateAccount,queryAllBundle,createAccount,getTenant,queryAdministratorByPage,isExistAccountInTenantByMobile,createTenantAndAccount,accountPassword,bindTenant&path=com.me.yimu.pay.user.api.TenantService&pid=28520&protocol=dubbo&qos.enable=false&qos.port=22240&register=true&register.ip=192.168.76.1&release=2.7.3&remote.application=user-service&retries=-1&side=consumer&sticky=false&timeout=90000&timestamp=1674562178785) failed to connect to server /192.168.76.1:20880, error message is:Connection refused: no further information: /192.168.76.1:20880
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:166)
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:190)
+	at org.apache.dubbo.remoting.transport.AbstractClient.reconnect(AbstractClient.java:246)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient.reconnect(HeaderExchangeClient.java:155)
+	at org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask.doTask(ReconnectTimerTask.java:49)
+	at org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask.run(AbstractTimerTask.java:87)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:648)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:727)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$Worker.run(HashedWheelTimer.java:449)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.76.1:20880
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:665)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:612)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:529)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+[商品服务工程][${env:SERVER_PORT}] 2023-01-24 20:33:06,305 ERROR [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:51] -  [DUBBO] Fail to connect to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.76.1:0 -> /192.168.76.1:20880]], dubbo version: 2.7.3, current host: 192.168.76.1
+org.apache.dubbo.remoting.RemotingException: client(url: dubbo://192.168.76.1:20880/com.me.yimu.pay.user.api.TenantService?anyhost=true&application=merchant-service&bean.name=ServiceBean:com.me.yimu.pay.user.api.TenantService&category=providers&check=false&codec=dubbo&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=com.me.yimu.pay.user.api.TenantService&lazy=false&methods=modifyBundle,getTenantByAccount,getAccountByUsername,createBundle,initBundle,isExistAccountByUsername,login,unbindTenant,getBundle,removeTenant,queryBundleByTenantType,queryTenants,getAccountByMobile,getApplicationDTOByClientId,queryAccount,changeBundle,isExistAccountInTenantByUsername,createAccountInTenant,authentication,queryAccountRole,queryAccountInTenant,isExistAccountByMobile,sendMessage,createTenantRelateAccount,queryAllBundle,createAccount,getTenant,queryAdministratorByPage,isExistAccountInTenantByMobile,createTenantAndAccount,accountPassword,bindTenant&path=com.me.yimu.pay.user.api.TenantService&pid=28520&protocol=dubbo&qos.enable=false&qos.port=22240&register=true&register.ip=192.168.76.1&release=2.7.3&remote.application=user-service&retries=-1&side=consumer&sticky=false&timeout=90000&timestamp=1674562178785) failed to connect to server /192.168.76.1:20880, error message is:Connection refused: no further information: /192.168.76.1:20880
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:166)
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:190)
+	at org.apache.dubbo.remoting.transport.AbstractClient.reconnect(AbstractClient.java:246)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient.reconnect(HeaderExchangeClient.java:155)
+	at org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask.doTask(ReconnectTimerTask.java:49)
+	at org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask.run(AbstractTimerTask.java:87)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:648)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:727)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$Worker.run(HashedWheelTimer.java:449)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.76.1:20880
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:665)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:612)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:529)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+[商品服务工程][${env:SERVER_PORT}] 2023-01-24 20:34:09,331 ERROR [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:51] -  [DUBBO] Fail to connect to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.76.1:0 -> /192.168.76.1:20880]], dubbo version: 2.7.3, current host: 192.168.76.1
+org.apache.dubbo.remoting.RemotingException: client(url: dubbo://192.168.76.1:20880/com.me.yimu.pay.user.api.TenantService?anyhost=true&application=merchant-service&bean.name=ServiceBean:com.me.yimu.pay.user.api.TenantService&category=providers&check=false&codec=dubbo&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=com.me.yimu.pay.user.api.TenantService&lazy=false&methods=modifyBundle,getTenantByAccount,getAccountByUsername,createBundle,initBundle,isExistAccountByUsername,login,unbindTenant,getBundle,removeTenant,queryBundleByTenantType,queryTenants,getAccountByMobile,getApplicationDTOByClientId,queryAccount,changeBundle,isExistAccountInTenantByUsername,createAccountInTenant,authentication,queryAccountRole,queryAccountInTenant,isExistAccountByMobile,sendMessage,createTenantRelateAccount,queryAllBundle,createAccount,getTenant,queryAdministratorByPage,isExistAccountInTenantByMobile,createTenantAndAccount,accountPassword,bindTenant&path=com.me.yimu.pay.user.api.TenantService&pid=28520&protocol=dubbo&qos.enable=false&qos.port=22240&register=true&register.ip=192.168.76.1&release=2.7.3&remote.application=user-service&retries=-1&side=consumer&sticky=false&timeout=90000&timestamp=1674562178785) failed to connect to server /192.168.76.1:20880, error message is:Connection refused: no further information: /192.168.76.1:20880
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:166)
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:190)
+	at org.apache.dubbo.remoting.transport.AbstractClient.reconnect(AbstractClient.java:246)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient.reconnect(HeaderExchangeClient.java:155)
+	at org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask.doTask(ReconnectTimerTask.java:49)
+	at org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask.run(AbstractTimerTask.java:87)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:648)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:727)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$Worker.run(HashedWheelTimer.java:449)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.76.1:20880
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:665)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:612)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:529)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+[商品服务工程][${env:SERVER_PORT}] 2023-01-24 20:35:12,321 ERROR [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:51] -  [DUBBO] Fail to connect to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.76.1:0 -> /192.168.76.1:20880]], dubbo version: 2.7.3, current host: 192.168.76.1
+org.apache.dubbo.remoting.RemotingException: client(url: dubbo://192.168.76.1:20880/com.me.yimu.pay.user.api.TenantService?anyhost=true&application=merchant-service&bean.name=ServiceBean:com.me.yimu.pay.user.api.TenantService&category=providers&check=false&codec=dubbo&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=com.me.yimu.pay.user.api.TenantService&lazy=false&methods=modifyBundle,getTenantByAccount,getAccountByUsername,createBundle,initBundle,isExistAccountByUsername,login,unbindTenant,getBundle,removeTenant,queryBundleByTenantType,queryTenants,getAccountByMobile,getApplicationDTOByClientId,queryAccount,changeBundle,isExistAccountInTenantByUsername,createAccountInTenant,authentication,queryAccountRole,queryAccountInTenant,isExistAccountByMobile,sendMessage,createTenantRelateAccount,queryAllBundle,createAccount,getTenant,queryAdministratorByPage,isExistAccountInTenantByMobile,createTenantAndAccount,accountPassword,bindTenant&path=com.me.yimu.pay.user.api.TenantService&pid=28520&protocol=dubbo&qos.enable=false&qos.port=22240&register=true&register.ip=192.168.76.1&release=2.7.3&remote.application=user-service&retries=-1&side=consumer&sticky=false&timeout=90000&timestamp=1674562178785) failed to connect to server /192.168.76.1:20880, error message is:Connection refused: no further information: /192.168.76.1:20880
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:166)
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:190)
+	at org.apache.dubbo.remoting.transport.AbstractClient.reconnect(AbstractClient.java:246)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient.reconnect(HeaderExchangeClient.java:155)
+	at org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask.doTask(ReconnectTimerTask.java:49)
+	at org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask.run(AbstractTimerTask.java:87)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:648)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:727)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$Worker.run(HashedWheelTimer.java:449)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.76.1:20880
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:665)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:612)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:529)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+[商品服务工程][${env:SERVER_PORT}] 2023-01-24 20:36:15,312 ERROR [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:51] -  [DUBBO] Fail to connect to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.76.1:0 -> /192.168.76.1:20880]], dubbo version: 2.7.3, current host: 192.168.76.1
+org.apache.dubbo.remoting.RemotingException: client(url: dubbo://192.168.76.1:20880/com.me.yimu.pay.user.api.TenantService?anyhost=true&application=merchant-service&bean.name=ServiceBean:com.me.yimu.pay.user.api.TenantService&category=providers&check=false&codec=dubbo&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=com.me.yimu.pay.user.api.TenantService&lazy=false&methods=modifyBundle,getTenantByAccount,getAccountByUsername,createBundle,initBundle,isExistAccountByUsername,login,unbindTenant,getBundle,removeTenant,queryBundleByTenantType,queryTenants,getAccountByMobile,getApplicationDTOByClientId,queryAccount,changeBundle,isExistAccountInTenantByUsername,createAccountInTenant,authentication,queryAccountRole,queryAccountInTenant,isExistAccountByMobile,sendMessage,createTenantRelateAccount,queryAllBundle,createAccount,getTenant,queryAdministratorByPage,isExistAccountInTenantByMobile,createTenantAndAccount,accountPassword,bindTenant&path=com.me.yimu.pay.user.api.TenantService&pid=28520&protocol=dubbo&qos.enable=false&qos.port=22240&register=true&register.ip=192.168.76.1&release=2.7.3&remote.application=user-service&retries=-1&side=consumer&sticky=false&timeout=90000&timestamp=1674562178785) failed to connect to server /192.168.76.1:20880, error message is:Connection refused: no further information: /192.168.76.1:20880
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:166)
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:190)
+	at org.apache.dubbo.remoting.transport.AbstractClient.reconnect(AbstractClient.java:246)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient.reconnect(HeaderExchangeClient.java:155)
+	at org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask.doTask(ReconnectTimerTask.java:49)
+	at org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask.run(AbstractTimerTask.java:87)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:648)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:727)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$Worker.run(HashedWheelTimer.java:449)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.76.1:20880
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:665)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:612)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:529)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+[商品服务工程][${env:SERVER_PORT}] 2023-01-24 20:37:18,302 ERROR [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:51] -  [DUBBO] Fail to connect to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.76.1:0 -> /192.168.76.1:20880]], dubbo version: 2.7.3, current host: 192.168.76.1
+org.apache.dubbo.remoting.RemotingException: client(url: dubbo://192.168.76.1:20880/com.me.yimu.pay.user.api.TenantService?anyhost=true&application=merchant-service&bean.name=ServiceBean:com.me.yimu.pay.user.api.TenantService&category=providers&check=false&codec=dubbo&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=com.me.yimu.pay.user.api.TenantService&lazy=false&methods=modifyBundle,getTenantByAccount,getAccountByUsername,createBundle,initBundle,isExistAccountByUsername,login,unbindTenant,getBundle,removeTenant,queryBundleByTenantType,queryTenants,getAccountByMobile,getApplicationDTOByClientId,queryAccount,changeBundle,isExistAccountInTenantByUsername,createAccountInTenant,authentication,queryAccountRole,queryAccountInTenant,isExistAccountByMobile,sendMessage,createTenantRelateAccount,queryAllBundle,createAccount,getTenant,queryAdministratorByPage,isExistAccountInTenantByMobile,createTenantAndAccount,accountPassword,bindTenant&path=com.me.yimu.pay.user.api.TenantService&pid=28520&protocol=dubbo&qos.enable=false&qos.port=22240&register=true&register.ip=192.168.76.1&release=2.7.3&remote.application=user-service&retries=-1&side=consumer&sticky=false&timeout=90000&timestamp=1674562178785) failed to connect to server /192.168.76.1:20880, error message is:Connection refused: no further information: /192.168.76.1:20880
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:166)
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:190)
+	at org.apache.dubbo.remoting.transport.AbstractClient.reconnect(AbstractClient.java:246)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient.reconnect(HeaderExchangeClient.java:155)
+	at org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask.doTask(ReconnectTimerTask.java:49)
+	at org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask.run(AbstractTimerTask.java:87)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:648)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:727)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$Worker.run(HashedWheelTimer.java:449)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.76.1:20880
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:665)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:612)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:529)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+[商品服务工程][${env:SERVER_PORT}] 2023-01-24 20:38:21,316 ERROR [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:51] -  [DUBBO] Fail to connect to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.76.1:0 -> /192.168.76.1:20880]], dubbo version: 2.7.3, current host: 192.168.76.1
+org.apache.dubbo.remoting.RemotingException: client(url: dubbo://192.168.76.1:20880/com.me.yimu.pay.user.api.TenantService?anyhost=true&application=merchant-service&bean.name=ServiceBean:com.me.yimu.pay.user.api.TenantService&category=providers&check=false&codec=dubbo&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=com.me.yimu.pay.user.api.TenantService&lazy=false&methods=modifyBundle,getTenantByAccount,getAccountByUsername,createBundle,initBundle,isExistAccountByUsername,login,unbindTenant,getBundle,removeTenant,queryBundleByTenantType,queryTenants,getAccountByMobile,getApplicationDTOByClientId,queryAccount,changeBundle,isExistAccountInTenantByUsername,createAccountInTenant,authentication,queryAccountRole,queryAccountInTenant,isExistAccountByMobile,sendMessage,createTenantRelateAccount,queryAllBundle,createAccount,getTenant,queryAdministratorByPage,isExistAccountInTenantByMobile,createTenantAndAccount,accountPassword,bindTenant&path=com.me.yimu.pay.user.api.TenantService&pid=28520&protocol=dubbo&qos.enable=false&qos.port=22240&register=true&register.ip=192.168.76.1&release=2.7.3&remote.application=user-service&retries=-1&side=consumer&sticky=false&timeout=90000&timestamp=1674562178785) failed to connect to server /192.168.76.1:20880, error message is:Connection refused: no further information: /192.168.76.1:20880
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:166)
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:190)
+	at org.apache.dubbo.remoting.transport.AbstractClient.reconnect(AbstractClient.java:246)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient.reconnect(HeaderExchangeClient.java:155)
+	at org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask.doTask(ReconnectTimerTask.java:49)
+	at org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask.run(AbstractTimerTask.java:87)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:648)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:727)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$Worker.run(HashedWheelTimer.java:449)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.76.1:20880
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:665)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:612)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:529)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+[商品服务工程][${env:SERVER_PORT}] 2023-01-24 20:39:24,307 ERROR [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:51] -  [DUBBO] Fail to connect to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.76.1:0 -> /192.168.76.1:20880]], dubbo version: 2.7.3, current host: 192.168.76.1
+org.apache.dubbo.remoting.RemotingException: client(url: dubbo://192.168.76.1:20880/com.me.yimu.pay.user.api.TenantService?anyhost=true&application=merchant-service&bean.name=ServiceBean:com.me.yimu.pay.user.api.TenantService&category=providers&check=false&codec=dubbo&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=com.me.yimu.pay.user.api.TenantService&lazy=false&methods=modifyBundle,getTenantByAccount,getAccountByUsername,createBundle,initBundle,isExistAccountByUsername,login,unbindTenant,getBundle,removeTenant,queryBundleByTenantType,queryTenants,getAccountByMobile,getApplicationDTOByClientId,queryAccount,changeBundle,isExistAccountInTenantByUsername,createAccountInTenant,authentication,queryAccountRole,queryAccountInTenant,isExistAccountByMobile,sendMessage,createTenantRelateAccount,queryAllBundle,createAccount,getTenant,queryAdministratorByPage,isExistAccountInTenantByMobile,createTenantAndAccount,accountPassword,bindTenant&path=com.me.yimu.pay.user.api.TenantService&pid=28520&protocol=dubbo&qos.enable=false&qos.port=22240&register=true&register.ip=192.168.76.1&release=2.7.3&remote.application=user-service&retries=-1&side=consumer&sticky=false&timeout=90000&timestamp=1674562178785) failed to connect to server /192.168.76.1:20880, error message is:Connection refused: no further information: /192.168.76.1:20880
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:166)
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:190)
+	at org.apache.dubbo.remoting.transport.AbstractClient.reconnect(AbstractClient.java:246)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient.reconnect(HeaderExchangeClient.java:155)
+	at org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask.doTask(ReconnectTimerTask.java:49)
+	at org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask.run(AbstractTimerTask.java:87)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:648)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:727)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$Worker.run(HashedWheelTimer.java:449)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.76.1:20880
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:665)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:612)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:529)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+[商品服务工程][${env:SERVER_PORT}] 2023-01-24 20:42:29,316 ERROR [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:51] -  [DUBBO] Fail to connect to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.76.1:0 -> /192.168.76.1:20880]], dubbo version: 2.7.3, current host: 192.168.76.1
+org.apache.dubbo.remoting.RemotingException: client(url: dubbo://192.168.76.1:20880/com.me.yimu.pay.user.api.TenantService?anyhost=true&application=merchant-service&bean.name=ServiceBean:com.me.yimu.pay.user.api.TenantService&category=providers&check=false&codec=dubbo&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=com.me.yimu.pay.user.api.TenantService&lazy=false&methods=modifyBundle,getTenantByAccount,getAccountByUsername,createBundle,initBundle,isExistAccountByUsername,login,unbindTenant,getBundle,removeTenant,queryBundleByTenantType,queryTenants,getAccountByMobile,getApplicationDTOByClientId,queryAccount,changeBundle,isExistAccountInTenantByUsername,createAccountInTenant,authentication,queryAccountRole,queryAccountInTenant,isExistAccountByMobile,sendMessage,createTenantRelateAccount,queryAllBundle,createAccount,getTenant,queryAdministratorByPage,isExistAccountInTenantByMobile,createTenantAndAccount,accountPassword,bindTenant&path=com.me.yimu.pay.user.api.TenantService&pid=28520&protocol=dubbo&qos.enable=false&qos.port=22240&register=true&register.ip=192.168.76.1&release=2.7.3&remote.application=user-service&retries=-1&side=consumer&sticky=false&timeout=90000&timestamp=1674562178785) failed to connect to server /192.168.76.1:20880, error message is:Connection refused: no further information: /192.168.76.1:20880
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:166)
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:190)
+	at org.apache.dubbo.remoting.transport.AbstractClient.reconnect(AbstractClient.java:246)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient.reconnect(HeaderExchangeClient.java:155)
+	at org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask.doTask(ReconnectTimerTask.java:49)
+	at org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask.run(AbstractTimerTask.java:87)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:648)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:727)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$Worker.run(HashedWheelTimer.java:449)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.76.1:20880
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:665)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:612)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:529)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+[商品服务工程][${env:SERVER_PORT}] 2023-01-24 20:43:32,331 ERROR [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:51] -  [DUBBO] Fail to connect to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.76.1:0 -> /192.168.76.1:20880]], dubbo version: 2.7.3, current host: 192.168.76.1
+org.apache.dubbo.remoting.RemotingException: client(url: dubbo://192.168.76.1:20880/com.me.yimu.pay.user.api.TenantService?anyhost=true&application=merchant-service&bean.name=ServiceBean:com.me.yimu.pay.user.api.TenantService&category=providers&check=false&codec=dubbo&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=com.me.yimu.pay.user.api.TenantService&lazy=false&methods=modifyBundle,getTenantByAccount,getAccountByUsername,createBundle,initBundle,isExistAccountByUsername,login,unbindTenant,getBundle,removeTenant,queryBundleByTenantType,queryTenants,getAccountByMobile,getApplicationDTOByClientId,queryAccount,changeBundle,isExistAccountInTenantByUsername,createAccountInTenant,authentication,queryAccountRole,queryAccountInTenant,isExistAccountByMobile,sendMessage,createTenantRelateAccount,queryAllBundle,createAccount,getTenant,queryAdministratorByPage,isExistAccountInTenantByMobile,createTenantAndAccount,accountPassword,bindTenant&path=com.me.yimu.pay.user.api.TenantService&pid=28520&protocol=dubbo&qos.enable=false&qos.port=22240&register=true&register.ip=192.168.76.1&release=2.7.3&remote.application=user-service&retries=-1&side=consumer&sticky=false&timeout=90000&timestamp=1674562178785) failed to connect to server /192.168.76.1:20880, error message is:Connection refused: no further information: /192.168.76.1:20880
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:166)
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:190)
+	at org.apache.dubbo.remoting.transport.AbstractClient.reconnect(AbstractClient.java:246)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient.reconnect(HeaderExchangeClient.java:155)
+	at org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask.doTask(ReconnectTimerTask.java:49)
+	at org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask.run(AbstractTimerTask.java:87)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:648)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:727)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$Worker.run(HashedWheelTimer.java:449)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.76.1:20880
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:665)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:612)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:529)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+[商品服务工程][${env:SERVER_PORT}] 2023-01-24 20:44:35,319 ERROR [dubbo-client-idleCheck-thread-1][ReconnectTimerTask.java:51] -  [DUBBO] Fail to connect to HeaderExchangeClient [channel=org.apache.dubbo.remoting.transport.netty4.NettyClient [192.168.76.1:0 -> /192.168.76.1:20880]], dubbo version: 2.7.3, current host: 192.168.76.1
+org.apache.dubbo.remoting.RemotingException: client(url: dubbo://192.168.76.1:20880/com.me.yimu.pay.user.api.TenantService?anyhost=true&application=merchant-service&bean.name=ServiceBean:com.me.yimu.pay.user.api.TenantService&category=providers&check=false&codec=dubbo&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=com.me.yimu.pay.user.api.TenantService&lazy=false&methods=modifyBundle,getTenantByAccount,getAccountByUsername,createBundle,initBundle,isExistAccountByUsername,login,unbindTenant,getBundle,removeTenant,queryBundleByTenantType,queryTenants,getAccountByMobile,getApplicationDTOByClientId,queryAccount,changeBundle,isExistAccountInTenantByUsername,createAccountInTenant,authentication,queryAccountRole,queryAccountInTenant,isExistAccountByMobile,sendMessage,createTenantRelateAccount,queryAllBundle,createAccount,getTenant,queryAdministratorByPage,isExistAccountInTenantByMobile,createTenantAndAccount,accountPassword,bindTenant&path=com.me.yimu.pay.user.api.TenantService&pid=28520&protocol=dubbo&qos.enable=false&qos.port=22240&register=true&register.ip=192.168.76.1&release=2.7.3&remote.application=user-service&retries=-1&side=consumer&sticky=false&timeout=90000&timestamp=1674562178785) failed to connect to server /192.168.76.1:20880, error message is:Connection refused: no further information: /192.168.76.1:20880
+	at org.apache.dubbo.remoting.transport.netty4.NettyClient.doConnect(NettyClient.java:166)
+	at org.apache.dubbo.remoting.transport.AbstractClient.connect(AbstractClient.java:190)
+	at org.apache.dubbo.remoting.transport.AbstractClient.reconnect(AbstractClient.java:246)
+	at org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient.reconnect(HeaderExchangeClient.java:155)
+	at org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask.doTask(ReconnectTimerTask.java:49)
+	at org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask.run(AbstractTimerTask.java:87)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelTimeout.expire(HashedWheelTimer.java:648)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$HashedWheelBucket.expireTimeouts(HashedWheelTimer.java:727)
+	at org.apache.dubbo.common.timer.HashedWheelTimer$Worker.run(HashedWheelTimer.java:449)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /192.168.76.1:20880
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:327)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:665)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:612)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:529)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	... 1 more
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 more
+[商品服务工程][${env:SERVER_PORT}] 2023-01-24 20:53:26,629 ERROR [ThreadPoolTaskScheduler-1][TaskUtils.java:96] - Unexpected error occurred in scheduled task.
+java.lang.IllegalStateException: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2bd2b28e has been closed already
+	at org.springframework.context.support.AbstractApplicationContext.assertBeanFactoryActive(AbstractApplicationContext.java:1089)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1104)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:286)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:256)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:179)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:142)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359)
+	at com.alibaba.cloud.nacos.discovery.NacosWatch.nacosServicesWatch(NacosWatch.java:120)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

@@ -1,0 +1,6 @@
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-23 03:24:01,930 INFO [RMI TCP Connection(2)-127.0.0.1][SpringApplicationAdminMXBeanRegistrar.java:163] - Application shutdown requested.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-23 03:24:01,933 INFO [RMI TCP Connection(2)-127.0.0.1][ZuulFilterInitializer.java:77] - Stopping filter initializer
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-23 03:24:01,936 INFO [RMI TCP Connection(2)-127.0.0.1][NacosServiceRegistry.java:74] - De-registering from Nacos Server now...
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-23 03:24:01,938 INFO [RMI TCP Connection(2)-127.0.0.1][NacosServiceRegistry.java:93] - De-registration finished.
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-23 03:24:01,940 INFO [RMI TCP Connection(2)-127.0.0.1][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'
+[yimupay-gateway-service][${env:SERVER_PORT}] 2023-01-23 03:24:01,953 INFO [RMI TCP Connection(2)-127.0.0.1][DirectJDKLog.java:173] - Pausing ProtocolHandler ["http-nio-56010"]
